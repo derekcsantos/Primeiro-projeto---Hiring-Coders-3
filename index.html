@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" 
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" 
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300&display=swap" 
+    rel="stylesheet">
+    <title>Derek Santos</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="C:\Users\deric\OneDrive\Documentos\VS_CODE_Folder\imagens\10-removebg-preview.png" 
+            alt="" width="110px">
+        </div>
+        <ul>
+            <li>
+                <a target="blank" href="https://github.com/derekcsantos">github</a>
+            </li>
+            <li>
+                <a target="blank" href="mailto:derekcsantos@gmail.com">e-mail</a>
+            </li>
+            <li>
+                <a target="blank" href="https://wa.me/71999999999">whatsapp</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>Derek Santos</h1>
+                <h5>Front-End Developer</h5>
+            </div>
+
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <div style="display: none;" id="about">
+                <p>Olá, eu sou Derek Santos, formado em Ciências Econômicas 
+                    pela Universidade Federal da Bahia e com experiência no mercado financeiro. 
+                    Desde muito jovem nutro o interesse pela área de tecnologia, e sempre tive muita curiosidade para
+                    aprender e "fuçar" nos novos gadgets, além de ter facilidade com a área de análise de dados, desde minha graduação.
+                     Em 2021, vislumbrei a possibilidade de ingressar na área de programação e parti em busca de cursos online
+                      para aprender sobre algumas linguagens básicas. Estou só no começo, mas acredito que minha paixão me levará longe!
+                </p>                 
+            </div>
+
+            <div class="form">
+                <div>
+                    <p>Deixe seu contato:</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="seu melhor email :)">
+                    <button>enviar!</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main> 
+
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
