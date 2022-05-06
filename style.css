@@ -17,7 +17,7 @@ a {
 }
 
 body{
-    background: url(../imagens/levi-midnight-GyhtzbOUeVI-unsplash.jpg) no-repeat center center fixed;
+    background: url(./imagens/levi-midnight-GyhtzbOUeVI-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     /* background-image: linear-gradient(to right bottom, #ffffff, #dbdbdb, #b9b9b9, #979797, #777777, #636363, #4f4f4f, #3c3c3c, #2e2e2e, #212121, #141414, #000000); */
 }
